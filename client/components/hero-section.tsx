@@ -9,7 +9,7 @@ export function HeroSection() {
       {/* Hero Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F1653d35059b74a02a89ad40700db74ac%2F408d0f59230041379efd8d905bbad738?format=webp&width=800"
+          src="/hero-bg.svg"
           alt="Ship aerial view"
           className="w-full h-full object-cover"
         />
