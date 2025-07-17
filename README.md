@@ -1,5 +1,25 @@
 # Fusion Starter
 
+codex/add-vitest-tests-for-components
+This project is a full-stack template with React and an Express API.
+
+## Development
+
+Install dependencies and start the development server:
+
+```bash
+npm install
+npm run dev
+```
+
+## Running Tests
+
+Vitest is used for unit testing. Execute all tests with:
+
+```bash
+npm test
+```
+
 A production-ready full-stack template combining **React** and **Express** with an integrated Vite setup. TailwindCSS is used for styling and **Vitest** for unit testing. The project ships with hot reloading and a simple Express API so you can start building right away.
 
 ## Tech Stack
@@ -49,3 +69,4 @@ netlify deploy --build --prod # build and deploy
 ```
 
 This will upload the `dist/spa` folder and run serverless functions from `netlify/functions`.
+main
