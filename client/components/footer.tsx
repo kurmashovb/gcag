@@ -40,7 +40,7 @@ export function Footer() {
               <div className="flex items-center space-x-3">
                 <div className="bg-white rounded-full p-2 shadow-lg">
                   <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2F1653d35059b74a02a89ad40700db74ac%2F9522287b0fad4bfdbc64ba93902c8b82?format=webp&width=800"
+                    src="/logo.svg"
                     alt="African Flag Registration Services"
                     className="h-10 w-10 object-contain"
                   />
