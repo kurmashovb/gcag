@@ -1,0 +1,53 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background -->
+  <path d="M200 20 L350 80 L350 200 Q350 280 200 380 Q50 280 50 200 L50 80 Z" 
+        fill="#1e3a8a" stroke="#1e3a8a" stroke-width="2"/>
+  
+  <!-- Ship Hull -->
+  <path d="M120 220 Q120 240 140 250 L260 250 Q280 240 280 220 L280 200 Q280 190 270 190 L130 190 Q120 190 120 200 Z" 
+        fill="#1e3a8a"/>
+  
+  <!-- Ship Superstructure -->
+  <rect x="170" y="170" width="60" height="20" fill="#1e3a8a"/>
+  <rect x="185" y="150" width="30" height="20" fill="#1e3a8a"/>
+  <rect x="190" y="135" width="20" height="15" fill="#1e3a8a"/>
+  
+  <!-- Windows -->
+  <rect x="175" y="175" width="6" height="6" fill="white"/>
+  <rect x="185" y="175" width="6" height="6" fill="white"/>
+  <rect x="195" y="175" width="6" height="6" fill="white"/>
+  <rect x="205" y="175" width="6" height="6" fill="white"/>
+  <rect x="215" y="175" width="6" height="6" fill="white"/>
+  
+  <!-- Anchor -->
+  <g transform="translate(200,280)">
+    <!-- Anchor Ring -->
+    <circle cx="0" cy="-15" r="8" fill="none" stroke="#fbbf24" stroke-width="4"/>
+    <!-- Anchor Shaft -->
+    <line x1="0" y1="-7" x2="0" y2="35" stroke="#fbbf24" stroke-width="6"/>
+    <!-- Anchor Arms -->
+    <path d="M0 25 L-15 40 Q-20 45 -15 50 L-10 45 L0 35" fill="#fbbf24"/>
+    <path d="M0 25 L15 40 Q20 45 15 50 L10 45 L0 35" fill="#fbbf24"/>
+    <!-- Anchor Flukes -->
+    <path d="M-15 40 L-25 35 Q-30 33 -28 38 L-20 42" fill="#fbbf24"/>
+    <path d="M15 40 L25 35 Q30 33 28 38 L20 42" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Waves -->
+  <path d="M60 260 Q80 250 100 260 Q120 270 140 260 Q160 250 180 260 Q200 270 220 260 Q240 250 260 260 Q280 270 300 260 Q320 250 340 260" 
+        stroke="white" stroke-width="3" fill="none"/>
+  <path d="M60 275 Q80 265 100 275 Q120 285 140 275 Q160 265 180 275 Q200 285 220 275 Q240 265 260 275 Q280 285 300 275 Q320 265 340 275" 
+        stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- Flag -->
+  <g transform="translate(280,60)">
+    <!-- Flagpole -->
+    <line x1="0" y1="0" x2="0" y2="80" stroke="#1e3a8a" stroke-width="4"/>
+    <!-- Flag -->
+    <path d="M0 0 L60 0 Q70 10 60 20 L60 40 Q70 50 60 60 L0 60 Z" fill="#15803d"/>
+    <path d="M0 20 L60 20 Q70 30 60 40 L0 40 Z" fill="#dc2626"/>
+    <!-- Star -->
+    <polygon points="30,10 32,16 38,16 33,20 35,26 30,22 25,26 27,20 22,16 28,16" fill="#fbbf24"/>
+    <path d="M0 40 L60 40 Q70 50 60 60 L0 60 Z" fill="#1e3a8a"/>
+  </g>
+</svg>
