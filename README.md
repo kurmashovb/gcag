@@ -1,6 +1,5 @@
 # Fusion Starter
 
-codex/add-vitest-tests-for-components
 This project is a full-stack template with React and an Express API.
 
 ## Development
@@ -32,12 +31,12 @@ A production-ready full-stack template combining **React** and **Express** with 
 
 ## Scripts
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start the development server for both client and server |
-| `npm run build` | Build the client and server for production |
-| `npm start` | Run the production server after building |
-| `npm test` | Execute the Vitest test suite |
+| Command         | Description                                             |
+| --------------- | ------------------------------------------------------- |
+| `npm run dev`   | Start the development server for both client and server |
+| `npm run build` | Build the client and server for production              |
+| `npm start`     | Run the production server after building                |
+| `npm test`      | Execute the Vitest test suite                           |
 
 ## Local Development
 
@@ -69,4 +68,3 @@ netlify deploy --build --prod # build and deploy
 ```
 
 This will upload the `dist/spa` folder and run serverless functions from `netlify/functions`.
-main
